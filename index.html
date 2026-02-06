@@ -2,92 +2,59 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Account Support Information</title>
+<title>Page Status Information</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body{
   margin:0;
-  font-family: Arial, Helvetica, sans-serif;
-  background:#f2f5f9;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#eef2f7;
 }
-.container{
+.box{
   max-width:420px;
-  margin:20px auto;
-  padding:10px;
-}
-.card{
+  margin:30px auto;
   background:#fff;
-  border-radius:12px;
-  padding:16px;
-  margin-bottom:14px;
-  box-shadow:0 2px 6px rgba(0,0,0,0.08);
+  border-radius:14px;
+  padding:20px;
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
 }
-.card h2{
-  margin:0 0 8px;
-  font-size:18px;
-  color:#111;
-}
-.card p{
-  margin:0;
-  font-size:14px;
-  color:#555;
-  line-height:1.5;
-}
-.button{
+h2{margin-top:0}
+p{font-size:14px;color:#555;line-height:1.6}
+.btn{
   display:block;
   text-align:center;
-  padding:12px;
-  background:#1877f2;
+  background:#1a73e8;
   color:#fff;
-  border-radius:8px;
+  padding:14px;
+  border-radius:10px;
   text-decoration:none;
   font-weight:bold;
+  margin-top:20px;
 }
 .note{
-  font-size:13px;
-  color:#666;
+  font-size:12px;
+  color:#777;
+  margin-top:15px;
 }
 </style>
 </head>
+
 <body>
 
-<div class="container">
+<div class="box">
+  <h2>Page Status Notice</h2>
+  <p>
+    We detected unusual activity related to this page.
+    Please review the information carefully to avoid
+    limited visibility.
+  </p>
 
-  <div class="card">
-    <h2>Appeal Information</h2>
-    <p>
-      If your page or account has been restricted, you can review the reason
-      and submit an appeal through the official support system.
-    </p>
+  <!-- NEXT PAGE BUTTON -->
+  <a href="next.html" class="btn">Continue / Next</a>
+
+  <div class="note">
+    This is an independent informational page.
   </div>
-
-  <div class="card">
-    <h2>Help Resources</h2>
-    <p>
-      Learn about community rules, common violations, and how to keep your
-      account compliant with platform policies.
-    </p>
-  </div>
-
-  <div class="card">
-    <h2>Contact Support</h2>
-    <p>
-      For further assistance, visit the official help center and follow the
-      provided instructions carefully.
-    </p>
-  </div>
-
-  <div class="card">
-    <a href="#" class="button">Visit Official Help Center</a>
-  </div>
-
-  <div class="card">
-    <p class="note">
-      Note: This page is for informational purposes only and does not collect
-      login details or personal data.
-    </p>
-  </div>
-
 </div>
 
 </body>
